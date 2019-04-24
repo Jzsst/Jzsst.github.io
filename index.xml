@@ -9,11 +9,11 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>First</title>
-      <link>https://jzsst.github.io/2019/first/</link>
+      <title>Hello-Web</title>
+      <link>https://jzsst.github.io/2019/hello-web/</link>
       <pubDate>Sun, 21 Apr 2019 19:58:20 +0800</pubDate>
       
-      <guid>https://jzsst.github.io/2019/first/</guid>
+      <guid>https://jzsst.github.io/2019/hello-web/</guid>
       <description>&lt;p&gt;这是我的第一篇blog文章，咕咕咕。&lt;/p&gt;
 </description>
     </item>
@@ -24,10 +24,100 @@
       <pubDate>Sun, 21 Apr 2019 19:57:06 +0800</pubDate>
       
       <guid>https://jzsst.github.io/about/</guid>
-      <description>&lt;p&gt;嘀嘀嘀~~
-&lt;p&gt;&lt;/p&gt;
-关于：
-关于本站的一些介绍。&lt;/p&gt;
+      <description>&lt;!-- 
+
+hugo server --theme=LeaveIt --buildDrafts
+
+ --&gt;
+
+&lt;p align=&#34;center&#34;&gt;嘀嘀嘀~~&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p align=&#34;center&#34;&gt;先咕咕咕一段时间，最近太忙了。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;立flag5月完成次博客的全部搭建。&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p align=&#34;center&#34;&gt;关于：关于本站的一些介绍。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>一加官方氧OS下载地址</title>
+      <link>https://jzsst.github.io/2019/about-oxygenos/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2019/about-oxygenos/</guid>
+      <description>&lt;!-- jzsst 本人特殊标签 --&gt;
+
+&lt;p align=&#34;center&#34; &gt; 
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;(点击这里)&gt;&lt;/font&gt;
+&lt;a   target=&#34;_blank&#34; href=&#34;http://www.oneplusbbs.com/thread-4553579-1.html&#34;&gt; 
+&lt;font  size=&#34;6&#34; color=&#34;blue&#34; &gt;本人原帖&lt;/font&gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;&lt;(一加社区)&lt;/font&gt;&lt;/a&gt;
+&lt;p align=&#34;center&#34;&gt;________________华丽丽的分割线________________&lt;/p&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;!--  --&gt;
+
+
+
+&lt;p align=&#34;center&#34;&gt;在国内浏览官网会自动切到中国区的官网&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;下载氧OS的方法：&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;1、你只需要将官网网页最下面的语言选择改为美国或者其他你看的懂得都语言，&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;然后找到support-&gt;Software Upgrade -&gt;找到你需要下载的手机型号 -&gt; download&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;########## 1 #########&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201901/08/205234dwqkkqee6xetgk9g.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;########## 2 #########&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201901/08/205608j40lejk9r8r88j4m.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;########## 3 #########&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201901/08/205414mtgi5vg7g9g8ubtk.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;########## 4 #########&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201901/08/205804en1pizfw8idwio8d.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;2、这是直接链接，为了让更多的人看见，我就搞了回复可见。&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;如果无法使用请参照第一种方法，或者回复一下，我会及时更新。&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;点击这里 https://www.oneplus.com/support/softwareupgrade/&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;官网这个链接瞎抽风，我也很难受，&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;如果直接点，显示404，就复制去浏览器试试，&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;如果不行就用第一种方法把。 &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201901/05/164956d1ljnsu2n6v13lcr.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;应该可以这么算&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;Official  Build  -&gt; 稳定版&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;Beta Build -&gt; 公测版&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;刷入氧OS的方法：&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;下载氧OS ROM，放到手机根目录，本地升级就行&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;主要看有人找，官网在国内浏览自动跳到国区。&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;关于氧OS如何跳过验证这个问题提供几个方案&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;1、刷入前如果登录了google账号需要提前退出，开机紧急呼叫输入*#812#，然后重启。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;建议拔掉卡刷入。&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;2、双清，但是不建议用。&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;3、见下图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201901/08/204809dctatmm7cjr4ac29.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;以上方法有大佬提供，在此鸣谢。&lt;/p&gt;
 </description>
     </item>
     
@@ -111,9 +201,18 @@
       <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jzsst.github.io/2019/oneplus5-brush-resource-collection/</guid>
-      <description>&lt;p&gt;OnePlus5刷机资源集合&lt;/p&gt;
+      <description>&lt;!-- jzsst 本人特殊标签 --&gt;
 
-&lt;p&gt;[2019-02-23]&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;p align=&#34;center&#34; &gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;(点击这里)&amp;gt;&lt;/font&gt;
+&lt;a  target=&#34;_blank&#34; href=&#34;http://www.oneplusbbs.com/thread-4631116-1.html&#34;&gt;
+&lt;font size=&#34;6&#34; color=&#34;blue&#34; &gt;本人原帖&lt;/font&gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;&amp;lt;(一加社区)&lt;/font&gt;&lt;/a&gt;
+&lt;p align=&#34;center&#34;&gt;_____________&lt;strong&gt;&lt;em&gt;华丽丽的分割线&lt;/em&gt;&lt;/strong&gt;_____________&lt;/p&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;!--  --&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.oneplusbbs.com/forum.php?mod=image&amp;amp;aid=4051119&amp;amp;size=300x300&amp;amp;key=3c0242c71408b7f1&amp;amp;nocache=yes&amp;amp;type=fixnone&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -390,6 +489,19 @@
       <guid>https://jzsst.github.io/2018/about-github/</guid>
       <description>
 
+&lt;!-- jzsst 本人特殊标签 --&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;p align=&#34;center&#34; &gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;(点击这里)&amp;gt;&lt;/font&gt;
+&lt;a  target=&#34;_blank&#34; href=&#34;https://blog.csdn.net/qq_41659854/article/details/84036408&#34;&gt;
+&lt;font size=&#34;6&#34; color=&#34;blue&#34; &gt;本人原帖&lt;/font&gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;&amp;lt;(CSDN)&lt;/font&gt;&lt;/a&gt;
+&lt;p align=&#34;center&#34;&gt;_____________&lt;strong&gt;&lt;em&gt;华丽丽的分割线&lt;/em&gt;&lt;/strong&gt;_____________&lt;/p&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;!--  --&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;github配合eclipse和jetbrains系编译器的使用-基础篇&#34;&gt;Github配合Eclipse和JetBrains系编译器的使用（基础篇）&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;本人第一次发教程，可能会有错误！！！！！！
@@ -637,6 +749,256 @@ pycharm还有一种更快的方式！！！&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;                                                       2018-11-13
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[无需ROOT]论OnePlus如何调戏substratum主题管理</title>
+      <link>https://jzsst.github.io/2018/about-substratum/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2018/about-substratum/</guid>
+      <description>&lt;!-- jzsst 本人特殊标签 --&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;p align=&#34;center&#34; &gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;(点击这里)&amp;gt;&lt;/font&gt;
+&lt;a  target=&#34;_blank&#34; href=&#34;http://www.oneplusbbs.com/thread-4249345-1.html&#34;&gt;
+&lt;font size=&#34;6&#34; color=&#34;blue&#34; &gt;本人原帖&lt;/font&gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;&amp;lt;(一加社区)&lt;/font&gt;&lt;/a&gt;
+&lt;p align=&#34;center&#34;&gt;_____________&lt;strong&gt;&lt;em&gt;华丽丽的分割线&lt;/em&gt;&lt;/strong&gt;_____________&lt;/p&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;!--  --&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;[2018-08-02]&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;图标包分享:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;Miracles图标包,目前有1212个图标,&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;开发者不定期更新 。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;图标包下载链接分享在本帖最后回复可见,&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;点击跳转!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;(酷安下载链接和百度云链接)&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;部分图标:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201808/02/095504qtmukmbrztdksxtn.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201808/02/095508b6l0dpg39hlh1l7p.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201808/02/095512v0yn7gdz5ww7bqss.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201808/02/095500llf9f8kc9tiwywfg.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;[2018-07-05]&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;(系统更新最新的UI才有此功能,如果没有请等待!)&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;关于一加的主题管理,&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;官方提供三种主题模式,以及可自定义的强调色。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;(设置-&gt;显示-&gt;强调色-&gt;点击最后一格)&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;加油可根据自己的喜爱设置强调色。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220649pokv1pjvwpvs5a0q.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;这些对于大多数的加油基本上够用了，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;但是这不是本帖的重点！！！！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-华丽的分割线&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;本帖适用于&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;非安卓9.0的情况下 !!!!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;特别注明:安卓9.0为官方圆角,无需修改 !!!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;本帖适用于安卓8.1以下包括8.1的版本 !!!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;注意：本方法不需要ROOT！，但是需要钱。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;非官方系统本人不能保证都能使用!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;如果想不花钱请前往&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;[免费]ROOT使用sub主题管理&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;使用苏大佬提供的方法！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;大佬推荐的是ROOT使用，无需花钱。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;关于substratum主题 的使用&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;(此方法适用于氢OS和氧OS，理论上氧OS的兼容更好！)&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;所需软件：substratum主题管理 / andromeda&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;工具：andromeda激活工具 /  电脑&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;其它：一加手机 /   钱&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;substratum和andromeda最好都在谷歌play下载(酷安有sub)。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;andromeda是需要花钱购买。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;以下为主要教程：&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;1.substratum安装和andromeda购买和安装&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;Substratum（免费）很好下载，在酷安也有，但是andromeda需要谷歌购买验证。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;以下为氪金教程：&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;因为andromeda（1.99美元）需要购买，所以氪金！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;主要的方式就是购买礼品卡或者绑定卡！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;礼品卡有 日元 / 美元 / 韩元等。可以前往某宝（搜索谷歌礼品卡）进行购买。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;2800韩元一般要28人民币，10美元一般要64人民币。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;​                                            请理性消费！！！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;最好找可以代充商家进行充值！！！（比较方便）&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;注：备用方法-&amp;gt;购买之后需要去电脑网页版谷歌play进行兑换！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;\2. andromeda激活（需要电脑操作）&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;（1）下载andromeda激活工具（本帖最后放出链接）&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;（2）手机在开发者模式中打开USB调试，将手机与电脑连接。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;注：如果没有开发者模式，请点击关于手机-&amp;gt;连续点击版本号-&amp;gt;即可打开开发者模式。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;（3）打开andromeda软件-&amp;gt;解压已下载文件&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;-&amp;gt;点击运行start_andromeda.bat&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;-&amp;gt;激活成功!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;按照提示操作就行了，成功之后就是会自动关闭。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;注:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;substratum和andromeda激活时需要验证,&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;第一次激活很麻烦 , 挂着梯子，多操作几次就好了，请多给点耐心。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;有些梯子有范围限制,请改为全局代理!!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;成功截图:&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220644c2iy23zirz9vsz9l.png&#34; alt=&#34;&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;\3. 主题安装&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;（1）下载安装substratum主题，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;可以前往酷安（全免费）或者&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;谷歌play（部分收费而且不好看，不要问我为什么知道 &amp;gt;_&amp;lt; !）。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;社区苏大佬开发的《氢OS8.0+专用substratum主题》&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;很好用！酷安可下载！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;注：我会打包几个放在后面分享的链接，供大家享用！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;（2）应用主题（主要写下拉栏显示圆角和后台圆角）&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;下拉栏和多任务后台主要由这两个修改：&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;下拉栏显示圆角:&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220653emrgtizl348zsli9.png&#34; alt=&#34;&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;后台圆角:&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220658hw7wqonzfyvoko0a.png&#34; alt=&#34;&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;第一个选择android8.1&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;第二个根据自己的机型和对后台圆角弧度的要求进行选择&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;覆盖很全!!!!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;勾选完成之后，点击《编译&amp;amp;启用》。&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220721bs1t43lltsmnml4o.png&#34; alt=&#34;&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;（3）重启手机，进行《andromeda激活》操作，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;成功之后进行substratum主题管理，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;点击《管理》，勾选需要运用的选项，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;然后再点击《启动所选项》，再重启手机即可。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;（注：应用成功为绿色，没有运用黄色）&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;这是我个人的修改完成的效果&amp;gt;_&amp;lt;%&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220719r3fsi0cg46f6lufq.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220717v6hqixi6qitfffqt.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220727jvxx2rmczx22xfe8.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220704obz33r3zqqsqsab8.png?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;附加：&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201807/05/220706bhk8pzbwutovwkzo.png&#34; alt=&#34;&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;如果想关闭这个，关闭Sub主题的后台就好了！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;本教程主要的难点在于andromeda激活,&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;请多试几次!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;还有其它很多的功能比如:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;状态栏样式及其图标修改、下拉栏图标修改、&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;开机动画、系统设置样式修改等等。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;就请各位自己去发现吧！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;不教程主要突出的是不用root就可以使用Sub主题。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;所以会花钱！会花钱！请理性氪金！！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;个人想法：&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;很多时间去找有没有不用ROOT,不用电脑的方法。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;但是都不能完全避开，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;如果有些加油不能接受氪金的话，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;我也在本帖里面提供了苏大佬使用的ROOT方法。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;我想这有一部分人可能需要一种比较稳定，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;对系统伤害较小的的方法就发了这个帖子。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;果有更好的方式可以分享在帖子下面，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;或者发布帖子。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;如果对大部分加油有用的话，我会加在帖子上，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;并注明出处！！！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;致谢:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;回复也可以让更多的人看见这个帖子,&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;好东西大家一起分享才有意思。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;在此谢谢各位提供帮助的大佬！！&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;谢谢!!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;特别提醒:&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;\1. 本方法也有一定的风险，但是不至于成砖，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;主要的问题就是软件激活比较繁琐，但是不复杂。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;2.在酷安和谷歌play上有很多主题，但是有一部分不能用，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;由于最近比较忙，就没有时间，去一个个测试和分享。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;等过一段时间我会去找找在分享给大家。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;a href=&#34;https://pan.baidu.com/s/1C7Jhn_VYYiZubRs3bCCmhA&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Andromeda激活工具&amp;amp;Sub主题&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.coolapk.com/apk/com.amamiya.nanoiconpack.miracles&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Miracles图标包下载(酷安下载链接)-Miracles图标包&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;a href=&#34;https://pan.baidu.com/s/1nZ2PdnnraKRVZ4JzHGp9Wg&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Miracles图标包下载(百度云链接)&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>返乡~</title>
+      <link>https://jzsst.github.io/2017/about_back_home/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2017/about_back_home/</guid>
+      <description>&lt;!-- jzsst 本人特殊标签 --&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;p align=&#34;center&#34; &gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;(点击这里)&amp;gt;&lt;/font&gt;
+&lt;a  target=&#34;_blank&#34; href=&#34;http://www.oneplusbbs.com/thread-3586411-1.html&#34;&gt;
+&lt;font size=&#34;6&#34; color=&#34;blue&#34; &gt;本人原帖&lt;/font&gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;&amp;lt;(一加社区)&lt;/font&gt;&lt;/a&gt;
+&lt;p align=&#34;center&#34;&gt;_____________&lt;strong&gt;&lt;em&gt;华丽丽的分割线&lt;/em&gt;&lt;/strong&gt;_____________&lt;/p&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;!--  --&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;故乡的山还是那么绿，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;天还是那么蓝。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;远离城市的喧嚣，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;回归最初的起点。&lt;/p&gt;
+&lt;p align=&#34;center&#34; &gt;
+&lt;font color=&#34;red&#34; size=&#34;5&#34;&gt;
+NEVER  SETTLE
+&lt;/font&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/27/190911gethpxaazvchkyox.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/27/191105qhh5anu5j5v3lpua.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/27/191106qg73w3p6ts8cw6wf.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;---来自 OnePlus5&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>雨季~</title>
+      <link>https://jzsst.github.io/2017/about_rain/</link>
+      <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2017/about_rain/</guid>
+      <description>&lt;!-- jzsst 本人特殊标签 --&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;p align=&#34;center&#34; &gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;(点击这里)&amp;gt;&lt;/font&gt;
+&lt;a  target=&#34;_blank&#34; href=&#34;http://www.oneplusbbs.com/thread-3545539-1.html&#34;&gt;
+&lt;font size=&#34;6&#34; color=&#34;blue&#34; &gt;本人原帖&lt;/font&gt;
+&lt;font size=&#34;4&#34; color=&#34;red&#34;&gt;&amp;lt;(一加社区)&lt;/font&gt;&lt;/a&gt;
+&lt;p align=&#34;center&#34;&gt;_____________&lt;strong&gt;&lt;em&gt;华丽丽的分割线&lt;/em&gt;&lt;/strong&gt;_____________&lt;/p&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;!--  --&gt;&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;夏雨绵绵，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;微风噪噪。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;那一弯田间小路，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;甚是悠长!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;不过还好，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;凉凉爽爽，&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;清新诱人。&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;------Jzsst&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/07/164341wrm4b2am2omqm6yr.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/07/164359m74q47vbkkcceemk.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/07/164457b4v86605mtm6utbv.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/07/164513gj54vzj4mj0mvqq4.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/07/164533xq6o3683ga66sjio.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/07/164550wtvntth9o6v6u90r.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://static.oneplus.cn/data/attachment/forum/201707/07/164614i94i86zii8l6m9tt.jpg?x-oss-process=image/resize,w_768&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
