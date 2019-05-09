@@ -6,10 +6,53 @@
     <description>Recent content in 分享 on 放只虎归个山~~~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 23 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jzsst.github.io/tags/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>关于我对一下图标的想法~</title>
+      <link>https://jzsst.github.io/2019/about_icons/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2019/about_icons/</guid>
+      <description>&amp;lt;!DOCTYPE html&amp;gt;  
+ 关于一些图标的看法 &amp;amp;gt;&amp;amp;amp;&amp;amp;lt; | 放只虎归个山~~~   # 最近更新： [2019-04-27]  在2019-04-26的早上和群友聊了一下，
+群友反馈说：“状态栏震动提示图标和周围风格不搭。”、
+主要就是，除状态栏图标外，其它图标为扁平风格。
+就它一个为线条感。
+然后我就有了要不自己画一下？
+作为一个计算机学生就要就要体现出，自己的动手能力，然而我是个手残 &amp;gt;_&amp;lt;~~~。
+就去&amp;rdquo;借&amp;rdquo;了一个ipad开始就开始了。。。。
+主要工具：ipad + Apple Pencil + 有空闲时间的脑 + 手
+注意:图片比例在处理时出错了?所以看的大的大,小的小.担待担待.
+ ### 第一个图标:状态栏振动图标 直接上图
+第一版
+第二版
+第三版
+第终版
+内心OS：逐渐感觉自己的手是真的残，画的手抖。我为啥要有这种想法！头痛！
+还有两个搞怪版 ~ v 搞怪一
+搞怪二
+其实说句实话，最终版的视觉整体效果个人感觉应该要比现在的好一些，更融入周围。
+第终版
+ ### 第二个图标:状态栏环形电量提示图标 怎么说了.....
+虽然我不用这个，我是直接显示百分比，但是这个和目前的振动图标情况是一样的！但是它的情况会好很多。
+以下为我的一个想法...
+想着挺好的,但是画出来效果是真的不好,可能是手残.....
+电量显示
+主要的想法就是,用黑色部分显示电量的百分比,
+以前为一个环,看着有点空洞.
+关于普通充电时的动画:可以用一个圆充电池的中心逐渐扩大到外围,用外围圆的厚度表示已充电量.
+补充:闪充现在很好看!
+如下图步骤:
+充电动画
+ ### 第三个图标:下拉栏自动旋转按钮 为啥我有想法动?
+还不是因为第一个图标 ,见下图
+关闭时:
+关闭时</description>
+    </item>
     
     <item>
       <title>OnePlus5刷机资源集合【2019-02-23】</title>

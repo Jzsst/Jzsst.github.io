@@ -6,17 +6,44 @@
     <description>Recent content in Tags on 放只虎归个山~~~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jzsst.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>想法</title>
-      <link>https://jzsst.github.io/tags/%E6%83%B3%E6%B3%95/</link>
+      <title>前端</title>
+      <link>https://jzsst.github.io/tags/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/tags/%E5%89%8D%E7%AB%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习日记</title>
+      <link>https://jzsst.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>分享</title>
+      <link>https://jzsst.github.io/tags/%E5%88%86%E4%BA%AB/</link>
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jzsst.github.io/tags/%E6%83%B3%E6%B3%95/</guid>
+      <guid>https://jzsst.github.io/tags/%E5%88%86%E4%BA%AB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>建议</title>
+      <link>https://jzsst.github.io/tags/%E5%BB%BA%E8%AE%AE/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/tags/%E5%BB%BA%E8%AE%AE/</guid>
       <description></description>
     </item>
     
@@ -30,29 +57,11 @@
     </item>
     
     <item>
-      <title>hugo日记</title>
-      <link>https://jzsst.github.io/tags/hugo%E6%97%A5%E8%AE%B0/</link>
-      <pubDate>Sun, 21 Apr 2019 19:58:20 +0800</pubDate>
-      
-      <guid>https://jzsst.github.io/tags/hugo%E6%97%A5%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>教程</title>
       <link>https://jzsst.github.io/tags/%E6%95%99%E7%A8%8B/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jzsst.github.io/tags/%E6%95%99%E7%A8%8B/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>分享</title>
-      <link>https://jzsst.github.io/tags/%E5%88%86%E4%BA%AB/</link>
-      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jzsst.github.io/tags/%E5%88%86%E4%BA%AB/</guid>
       <description></description>
     </item>
     

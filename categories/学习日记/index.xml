@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学习日记 on 放只虎归个山~~~</title>
+    <link>https://jzsst.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</link>
+    <description>Recent content in 学习日记 on 放只虎归个山~~~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jzsst.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>前端学习之旅~</title>
+      <link>https://jzsst.github.io/2019/about_html_css_js/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2019/about_html_css_js/</guid>
+      <description>学习地：B站UP主xwUGG HTML&amp;amp;CSS | 复联4英雄海报 Avengers Endgame 网页设计 开始时间：2019-05-08-16：43
+结束时间：2019-05-08-18：10
+完成进度：绝大多数。
+现有问题：鼠标放置时前景板颜色不退。
+个人学习：开始对CSS有一个初步的了解。
+源码地址：点击这里
+DEMO：DEMO</description>
+    </item>
+    
+    <item>
+      <title>Hello-Web</title>
+      <link>https://jzsst.github.io/2019/hello-web/</link>
+      <pubDate>Sun, 21 Apr 2019 19:58:20 +0800</pubDate>
+      
+      <guid>https://jzsst.github.io/2019/hello-web/</guid>
+      <description>这是我的第一篇blog文章，咕咕咕。</description>
+    </item>
+    
+  </channel>
+</rss>
