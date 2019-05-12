@@ -55,6 +55,24 @@
 &lt;p&gt;DEMO：&lt;a href=&#34;https://jzsst.github.io/HTML/2&#34;&gt;DEMO&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/HTML/2/2.gif&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;css小动画-冒泡特效&#34;&gt;CSS小动画 | 冒泡特效&lt;/h3&gt;
+
+&lt;p&gt;学习视频：&lt;a href=&#34;https://www.bilibili.com/video/av52230800&#34;&gt;点击这里&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;开始时间：2019-05-12-23：22&lt;/p&gt;
+
+&lt;p&gt;结束时间：2019-05-12-00：07&lt;/p&gt;
+
+&lt;p&gt;完成进度：绝大多数，并加入自己的想法&lt;/p&gt;
+
+&lt;p&gt;现有问题：点击气泡不会消失，两个气泡可能会触碰。&lt;/p&gt;
+
+&lt;p&gt;个人学习：背景虚化&lt;/p&gt;
+
+&lt;p&gt;源码地址：&lt;a href=&#34;https://github.com/Jzsst/HTML-JS-CSS/tree/master/BubbleEffect(CSS)&#34;&gt;GitHub源码&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DEMO：&lt;a href=&#34;https://jzsst.github.io/HTML/3&#34;&gt;DEMO&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
