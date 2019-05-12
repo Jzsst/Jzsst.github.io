@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="css/iconfont.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script type="text/javascript" href=""></script>
+  <title>[HTML+CSS]一个带隐藏切换的侧边导航栏</title>
+</head>
+<body>
+
+<div class="sidebar">
+  <ul>
+    <li><a class="iconfont icon-icon_yingyongguanli" href="#" ></a></li>
+    <li><a class="iconfont icon-youhui" href="#" ></a></li>
+    <li><a class="iconfont icon-shebeikaifa" href="#" ></a></li>
+    <li><a class="iconfont icon-kefu" href="#" ></a></li>
+    <li><a class="iconfont icon-icon_shezhi" href="#" ></a></li>
+    <li><a class="iconfont icon-tiaoshi" href="#" ></a></li>
+    <li><a class="iconfont icon-shuaxin" href="#" ></a></li>
+    </ul>
+</div>
+<a class="btn"></a>
+
+<script type="text/javascript">
+  $('.btn').on("click",function(){
+    $('.btn').toggleClass('btnc');
+    $('.sidebar').toggleClass('side');
+  });
+</script>
+</body>
+</html>
