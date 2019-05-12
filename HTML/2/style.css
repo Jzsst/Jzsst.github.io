@@ -1,0 +1,72 @@
+@import "https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css";
+@import "https://at.alicdn.com/t/font_1186660_opz1764wizk.css";
+body,html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+.sidebar{
+  float: left;
+  width: 100px;
+  margin-left: -100px;
+  height: 100%;
+  background: #FFFFFF;
+  overflow:hidden;
+  transition: 0.8s all;
+}
+
+.side{
+  margin-left: 0;
+}
+.sidebar ul{/*注意*/
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li{
+  list-style: none;
+}
+
+.sidebar ul li a{
+  color: black;
+  height: 80px;
+  width: 100%;
+  font-size:40px;/*大小*/
+  line-height: 80px;/*间隔*/
+  text-align: center;
+  display: block;/*图标置中*/
+  transition: 0.6s all;
+}
+
+.sidebar ul li a:hover{
+  background: black;
+  border-radius:66%;/*椭圆化  自加*/
+  color: #CCCCCC;
+}
+
+.btn{
+  float: left;
+  padding: 0;
+  font-size: 40px;
+  text-decoration: none;
+  color: #666699;
+  font-family: Ionicons;
+  cursor: pointer;
+}
+
+.btn:before{
+  content: "\f283";
+  float:left;
+  margin-left:10px;/*控件位置*/
+  margin-top:10px;/*控件位置*/
+}
+
+.btnc:before{
+  content: "\f2c0";
+}
+
+.iconfont {/*删除底部横线*/
+  text-decoration: none;
+}
