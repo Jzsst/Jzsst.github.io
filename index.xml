@@ -261,13 +261,12 @@
 &lt;a  target=&#34;_blank&#34; href=&#34;https://github.com/jzsst&#34;&gt;[GitHub]&amp;mdash;&lt;/a&gt;
 &lt;a  target=&#34;_blank&#34; href=&#34;https://blog.csdn.net/qq_41659854&#34;&gt;[CSDN]&lt;/a&gt;&lt;/p&gt;
 
-&lt;script async src=&#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&#34;&gt;&lt;/script&gt;
-
-&lt;p align=&#34;center&#34;&gt;
-
-&lt;span id=&#34;busuanzi_container_site_pv&#34; style=&#34;display: inline&#34;&gt;本站总访问量&lt;span id=&#34;busuanzi_value_page_pv&#34;&gt;&lt;/span&gt;次&lt;/span&gt;
-
-&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&#34;&gt;&lt;/script&gt;
+  &lt;p align=&#34;center&#34;&gt;
+    &lt;span id=&#34;busuanzi_container_site_pv&#34;&gt;
+    &lt;span id=&#34;busuanzi_container_page_pv&#34;&gt;&lt;font color=&#34;yellow&#34;&gt;全站访问量:&lt;/font&gt;&lt;/span&gt;&lt;span id=&#34;busuanzi_value_site_pv&#34;&gt;&lt;/span&gt;次
+    &lt;/span&gt;
+  &lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     
