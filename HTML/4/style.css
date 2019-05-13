@@ -1,0 +1,60 @@
+@import "https://fonts.font.im/css?family=Kirang+Haerang";
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(#f1edf7, rgba(69, 153, 223, 0.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    cursor: default;
+}
+
+span{
+    font-size: 200px;
+    font-family: 'Kirang Haerang', cursive;
+    color: #f1edf7;
+    position: relative;
+    text-shadow: 0 4px 0 #ccc,
+    0 5px 0 #ccc,
+    0 6px 0 #ccc,
+    0 7px 0 #ccc,
+    0 10px 10px rgba(0,0,0,4);
+    top: 30px;/*跳动的高度*/
+    animation: jump 0.4s ease infinite alternate;/*节奏*/
+}
+
+
+span:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+span:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+span:nth-child(4){
+    animation-delay: 0.3s;
+}
+
+span:nth-child(5){
+    animation-delay: 0.4s;
+}
+
+span:nth-child(6){
+    animation-delay: 0.5s;
+}
+
+
+@keyframes jump {
+    100%{
+        top: -20px;
+        text-shadow: 0 6px 0 #ccc,
+        0 9px 0 #ccc,
+        0 10px 0 #ccc,
+        0 11px 0 #ccc,
+        0 50px 25px rgba(0,0,0,2);
+    }
+}
