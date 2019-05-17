@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 放只虎归个山~~~</title>
-    <link>https://jzsst.github.io/posts/</link>
-    <description>Recent content in Posts on 放只虎归个山~~~</description>
+    <title>杂技浅谈 on 放只虎归个山~~~</title>
+    <link>https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E8%B0%88/</link>
+    <description>Recent content in 杂技浅谈 on 放只虎归个山~~~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jzsst.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -53,107 +53,6 @@ FLUTTER_STORAGE_BASE_URL | https://storage.flutter-io.cn 2、下载Flutter其最
     </item>
     
     <item>
-      <title>前端学习之旅~</title>
-      <link>https://jzsst.github.io/2019/about_html_css_js/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jzsst.github.io/2019/about_html_css_js/</guid>
-      <description>学习地：B站UP主xwUGG HTML&amp;amp;CSS | 海报 Avengers Endgame 网页设计 学习视频：点击这里
-开始时间：2019-05-08-16：43
-结束时间：2019-05-08-18：10
-完成进度：绝大多数。
-现有问题：鼠标放置时前景板颜色不退。
-个人学习：开始对CSS有一个初步的了解。
-源码地址：GitHub源码
-DEMO：DEMO
-HTML&amp;amp;CSS | 一个带隐藏切换的侧边导航栏 学习视频：点击这里
-开始时间：2019-05-11-23：43
-结束时间：2019-05-12-00：20
-完成进度：绝大多数，并加入自己的想法
-现有问题：使用阿里矢量图标时，CSS context问题。
-个人学习：外部CSS得使用。
-源码地址：GitHub源码
-DEMO：DEMO
-
-CSS小动画 | 冒泡特效 学习视频：点击这里
-开始时间：2019-05-12-23：22
-结束时间：2019-05-13-00：07
-完成进度：绝大多数，并加入自己的想法
-现有问题：点击气泡不会消失，两个气泡可能会触碰。
-个人学习：背景虚化
-源码地址：GitHub源码
-DEMO：DEMO
-CSS小动画 | 会跳的字母 学习视频：点击这里
-开始时间：2019-05-13-22：10
-结束时间：2019-05-13-22：57
-完成进度：绝大多数，并加入自己的想法
-现有问题：无大问题。
-个人学习：单个控制，上下浮动，渐变色。
-源码地址：GitHub源码
-DEMO：DEMO
-CSS小动画 | 回到顶部按钮 学习视频：点击这里
-开始时间：2019-05-14-17：00
-结束时间：2019-05-14-17：44
-完成进度：绝大多数，并加入自己的想法
-现有问题：返回顶部时，无动画，加了，但是没用。
-个人学习：CSS操作。
-源码地址：GitHub源码
-DEMO：DEMO</description>
-    </item>
-    
-    <item>
-      <title>关于我对一下图标的想法~</title>
-      <link>https://jzsst.github.io/2019/about_icons/</link>
-      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jzsst.github.io/2019/about_icons/</guid>
-      <description>&amp;lt;!DOCTYPE html&amp;gt;  
- 关于一些图标的看法 &amp;amp;gt;&amp;amp;amp;&amp;amp;lt; | 放只虎归个山~~~   # 最近更新： [2019-04-27]  在2019-04-26的早上和群友聊了一下，
-群友反馈说：“状态栏震动提示图标和周围风格不搭。”、
-主要就是，除状态栏图标外，其它图标为扁平风格。
-就它一个为线条感。
-然后我就有了要不自己画一下？
-作为一个计算机学生就要就要体现出，自己的动手能力，然而我是个手残 &amp;gt;_&amp;lt;~~~。
-就去&amp;rdquo;借&amp;rdquo;了一个ipad开始就开始了。。。。
-主要工具：ipad + Apple Pencil + 有空闲时间的脑 + 手
-注意:图片比例在处理时出错了?所以看的大的大,小的小.担待担待.
- ### 第一个图标:状态栏振动图标 直接上图
-第一版
-第二版
-第三版
-第终版
-内心OS：逐渐感觉自己的手是真的残，画的手抖。我为啥要有这种想法！头痛！
-还有两个搞怪版 ~ v 搞怪一
-搞怪二
-其实说句实话，最终版的视觉整体效果个人感觉应该要比现在的好一些，更融入周围。
-第终版
- ### 第二个图标:状态栏环形电量提示图标 怎么说了.....
-虽然我不用这个，我是直接显示百分比，但是这个和目前的振动图标情况是一样的！但是它的情况会好很多。
-以下为我的一个想法...
-想着挺好的,但是画出来效果是真的不好,可能是手残.....
-电量显示
-主要的想法就是,用黑色部分显示电量的百分比,
-以前为一个环,看着有点空洞.
-关于普通充电时的动画:可以用一个圆充电池的中心逐渐扩大到外围,用外围圆的厚度表示已充电量.
-补充:闪充现在很好看!
-如下图步骤:
-充电动画
- ### 第三个图标:下拉栏自动旋转按钮 为啥我有想法动?
-还不是因为第一个图标 ,见下图
-关闭时:
-关闭时</description>
-    </item>
-    
-    <item>
-      <title>Hello-Web</title>
-      <link>https://jzsst.github.io/2019/hello-web/</link>
-      <pubDate>Sun, 21 Apr 2019 19:58:20 +0800</pubDate>
-      
-      <guid>https://jzsst.github.io/2019/hello-web/</guid>
-      <description>这是我的第一篇blog文章，咕咕咕。</description>
-    </item>
-    
-    <item>
       <title>一加官方氧OS下载地址</title>
       <link>https://jzsst.github.io/2019/about-oxygenos/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
@@ -185,28 +84,6 @@ Beta Build - 公测版
 2、双清，但是不建议用。
 3、见下图
 以上方法有大佬提供，在此鸣谢。</description>
-    </item>
-    
-    <item>
-      <title>关于我对桌面的一些看法</title>
-      <link>https://jzsst.github.io/2019/about_launcher/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jzsst.github.io/2019/about_launcher/</guid>
-      <description>[2019-4-19] 开篇之语 我为啥会写这Blog？ 答：其实很久前都想做一个这个系列的博客，并持续更新了。仅表达我个人的一些观点。不喜勿碰！！！
-这Blog的主要内容是啥？ 答：关于我对于某些系统软件或者功能的一些看法，可能包含一些纸上谈兵。
-Blog的更新频率？ 答：当我有足够的想法我就会更新。
-[最近更新：2019-4-19] 主要内容 第一篇：关于我对“一加桌面”的一些想法 我对桌面最大的要求是：简洁、强大、效率高。
-目前一加桌面勉强符合这个要求。
-【简洁】
-我先展示一下我的桌面布局（主页+负一屏），主要采用负一屏和快捷搜索，来寻找软件。
-[2019-4-19] 开篇之语 我为啥会写这Blog？ 答：其实很久前都想做一个这个系列的博客，并持续更新了。仅表达我个人的一些观点。不喜勿碰！！！
-这Blog的主要内容是啥？ 答：关于我对于某些系统软件或者功能的一些看法，可能包含一些纸上谈兵。
-Blog的更新频率？ 答：当我有足够的想法我就会更新。
-[最近更新：2019-4-19] 主要内容 第一篇：关于我对“一加桌面”的一些想法 我对桌面最大的要求是：简洁、强大、效率高。
-目前一加桌面勉强符合这个要求。
-【简洁】
-我先展示一下我的桌面布局（主页+负一屏），主要采用负一屏和快捷搜索，来寻找软件。</description>
     </item>
     
     <item>
@@ -332,39 +209,6 @@ Substratum（免费）很好下载，在酷安也有，但是andromeda需要谷�
 最好找可以代充商家进行充值！！！（比较方便）
 注：备用方法-&amp;gt;购买之后需要去电脑网页版谷歌play进行兑换！
 \2. andromeda激活（需要电脑操作）</description>
-    </item>
-    
-    <item>
-      <title>返乡~</title>
-      <link>https://jzsst.github.io/2017/about_back_home/</link>
-      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jzsst.github.io/2017/about_back_home/</guid>
-      <description>(点击这里)&amp;gt; 本人原帖 &amp;lt;(一加社区) _____________华丽丽的分割线_____________
-  故乡的山还是那么绿，
-天还是那么蓝。
-远离城市的喧嚣，
-回归最初的起点。
-NEVER SETTLE 
-
----来自 OnePlus5</description>
-    </item>
-    
-    <item>
-      <title>雨季~</title>
-      <link>https://jzsst.github.io/2017/about_rain/</link>
-      <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jzsst.github.io/2017/about_rain/</guid>
-      <description>(点击这里)&amp;gt; 本人原帖 &amp;lt;(一加社区) _____________华丽丽的分割线_____________
- 夏雨绵绵，
-微风噪噪。
-那一弯田间小路，
-甚是悠长!
-不过还好，
-凉凉爽爽，
-清新诱人。
-------Jzsst</description>
     </item>
     
   </channel>

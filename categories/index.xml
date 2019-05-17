@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 放只虎归个山~~~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jzsst.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>杂技浅谈</title>
+      <link>https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E8%B0%88/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E8%B0%88/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>学习日记</title>
@@ -26,15 +35,6 @@
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jzsst.github.io/categories/%E5%A4%B4%E8%84%91%E9%A3%8E%E6%9A%B4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>杂技浅尝</title>
-      <link>https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</guid>
       <description></description>
     </item>
     

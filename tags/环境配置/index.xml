@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>环境配置 on 放只虎归个山~~~</title>
+    <link>https://jzsst.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+    <description>Recent content in 环境配置 on 放只虎归个山~~~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jzsst.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于一些编程语言的环境配置~</title>
+      <link>https://jzsst.github.io/2019/about_environmental_configuration/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2019/about_environmental_configuration/</guid>
+      <description>本篇主要记录一些编程语言的环境配置问题（基础） 电脑系统环境 ：Window10 |本片需要用到很多简单的CMD指令 C语言 Java Python Android Flutter 一、C语言 就本人而言不是很喜欢VC6.0，为啥？
+1、VC6.0安装麻烦，全是玄学。
+2、详细介绍，软件和编译环境版本过老。
+3、丑
+优点： 1、免费（虽然其他软件也免费）
+2、上手简单，网上使用教程多。
+3、考试通用。
+个人推荐： 1、Dev-C++：简单、小巧、汉化、操作简单。
+2、codeblocks：简单、适合项目开发、易汉化、兼容好。
+3、MingW + Clion：jetbrains公司软件生态、功能强大。
+我的选择 ：MingW + Clion 环境配置 1、2、种推荐直接下载软件安装即可。
+VC6.0建议使用免安装版，如果是安装版，安装一步步来就好了，希望不要出错！
+重点：MingW + Clion的配置 1、下载MingW[下载链接]
+2、解压exe文件，得到MingW文件。
+3、将MingW文件夹放置在一个合适的位置。如：其它软件安装位置。
+4、将WingW文件夹下的bin加入环境变量Path中即可，注意加入时格式的书写。
+5、检查，如图为正常
+6、Clion导入MingW即可
+二、Java 1、下载JDK，建议是JDK8。[下载链接]
+2、安装，点点点。注意你的安装路径，不要自己都记不到！！！
+3、将jdk****文件夹下面的bin文件加入到环境变量Path中即可。
+4、检查，如图即可。 三、Python 1、给的建议是直接装Anaconda。什么Python版本都有，全！！
+对应选择就好了
+2、检查
+四、Android 其实这里我就优点偷巧了！！！
+1、直接通过android studio进行管理SDK和SDK tools
+2、选择自己需要的，然后点击Apply，就会提示你下载。 3、配置androidSDK环境变量
+五、Flutter Flutter只要基于androidSDK修改添加一下就好了。
+参考文献
+1、添加两个用户变量
+PUB_HOSTED_URL | https://pub.flutter-io.cn
+FLUTTER_STORAGE_BASE_URL | https://storage.flutter-io.cn 2、下载Flutter其最新可用的安装包，点击下载 。
+3、将安装包zip解压到你想安装Flutter SDK的路径</description>
+    </item>
+    
+  </channel>
+</rss>

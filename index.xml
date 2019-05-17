@@ -5,8 +5,170 @@
     <description>Recent content in 放只虎归个山~~~ on 放只虎归个山~~~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>关于一些编程语言的环境配置~</title>
+      <link>https://jzsst.github.io/2019/about_environmental_configuration/</link>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2019/about_environmental_configuration/</guid>
+      <description>
+
+&lt;h2 id=&#34;本篇主要记录一些编程语言的环境配置问题-基础&#34;&gt;本篇主要记录一些编程语言的环境配置问题（基础）&lt;/h2&gt;
+
+&lt;h4 id=&#34;电脑系统环境-window10-本片需要用到很多简单的cmd指令&#34;&gt;电脑系统环境 ：Window10 |本片需要用到很多简单的CMD指令&lt;/h4&gt;
+
+&lt;h3 id=&#34;c语言&#34;&gt;C语言&lt;/h3&gt;
+
+&lt;h3 id=&#34;java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;h3 id=&#34;android&#34;&gt;Android&lt;/h3&gt;
+
+&lt;h3 id=&#34;flutter&#34;&gt;Flutter&lt;/h3&gt;
+
+&lt;h1 id=&#34;一-c语言&#34;&gt;一、C语言&lt;/h1&gt;
+
+&lt;p&gt;就本人而言不是很喜欢VC6.0，为啥？&lt;/p&gt;
+
+&lt;p&gt;1、VC6.0安装麻烦，全是玄学。&lt;/p&gt;
+
+&lt;p&gt;2、&lt;a href=&#34;https://baike.baidu.com/item/Microsoft%20Visual%20C++%206.0/8120077?fr=aladdin&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;详细介绍&lt;/a&gt;，软件和编译环境版本过老。&lt;/p&gt;
+
+&lt;p&gt;3、&lt;font size=&#34;9&#34; color=&#34;green&#34; &gt;丑&lt;/font&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;优点&#34;&gt;优点：&lt;/h4&gt;
+
+&lt;p&gt;1、免费（虽然其他软件也免费）&lt;/p&gt;
+
+&lt;p&gt;2、上手简单，网上使用教程多。&lt;/p&gt;
+
+&lt;p&gt;3、考试通用。&lt;/p&gt;
+
+&lt;h2 id=&#34;个人推荐&#34;&gt;个人推荐：&lt;/h2&gt;
+
+&lt;p&gt;1、Dev-C++：简单、小巧、汉化、操作简单。&lt;/p&gt;
+
+&lt;p&gt;2、codeblocks：简单、适合项目开发、易汉化、兼容好。&lt;/p&gt;
+
+&lt;p&gt;3、MingW + Clion：jetbrains公司软件生态、功能强大。&lt;/p&gt;
+
+&lt;h2 id=&#34;我的选择-mingw-clion&#34;&gt;我的选择 ：MingW + Clion&lt;/h2&gt;
+
+&lt;h2 id=&#34;环境配置&#34;&gt;环境配置&lt;/h2&gt;
+
+&lt;p&gt;1、2、种推荐直接下载软件安装即可。&lt;/p&gt;
+
+&lt;p&gt;VC6.0建议使用免安装版，如果是安装版，安装一步步来就好了，希望不要出错！&lt;/p&gt;
+
+&lt;h4 id=&#34;重点-mingw-clion的配置&#34;&gt;重点：MingW + Clion的配置&lt;/h4&gt;
+
+&lt;p&gt;1、下载MingW&lt;a href=&#34;https://nuwen.net/files/mingw/mingw-16.1.exe&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;[下载链接]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2、解压exe文件，得到MingW文件。&lt;/p&gt;
+
+&lt;p&gt;3、将MingW文件夹放置在一个合适的位置。如：其它软件安装位置。&lt;/p&gt;
+
+&lt;p&gt;4、将WingW文件夹下的bin加入环境变量Path中即可，注意加入时格式的书写。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/1.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;5、检查，如图为正常&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/2.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6、Clion导入MingW即可&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/3.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;二-java&#34;&gt;二、Java&lt;/h1&gt;
+
+&lt;p&gt;1、下载JDK，建议是JDK8。&lt;a href=&#34;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;[下载链接]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2、安装，点点点。注意你的安装路径，不要自己都记不到！！！&lt;/p&gt;
+
+&lt;p&gt;3、将jdk****文件夹下面的bin文件加入到环境变量Path中即可。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/4.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;4、检查，如图即可。
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/6.png&#34; alt=&#34;如图&#34; /&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/5.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;三-python&#34;&gt;三、Python&lt;/h1&gt;
+
+&lt;p&gt;1、给的建议是直接装Anaconda。什么Python版本都有，全！！&lt;/p&gt;
+
+&lt;p&gt;对应选择就好了&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/7.png&#34; alt=&#34;如图&#34; /&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/8.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2、检查&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/9.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;四-android&#34;&gt;四、Android&lt;/h1&gt;
+
+&lt;p&gt;其实这里我就优点偷巧了！！！&lt;/p&gt;
+
+&lt;p&gt;1、直接通过android studio进行管理SDK和SDK tools&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/10.png&#34; alt=&#34;如图&#34; /&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/11.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2、选择自己需要的，然后点击Apply，就会提示你下载。
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/12.png&#34; alt=&#34;如图&#34; /&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/13.png&#34; alt=&#34;如图&#34; /&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/14.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3、配置androidSDK环境变量&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/15.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;五-flutter&#34;&gt;五、Flutter&lt;/h1&gt;
+
+&lt;p&gt;Flutter只要基于androidSDK修改添加一下就好了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://flutterchina.club/setup-windows/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;参考文献&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;1、添加两个用户变量&lt;/p&gt;
+
+&lt;p&gt;PUB_HOSTED_URL | &lt;a href=&#34;https://pub.flutter-io.cn&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://pub.flutter-io.cn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;FLUTTER_STORAGE_BASE_URL  |  &lt;a href=&#34;https://storage.flutter-io.cn&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://storage.flutter-io.cn&lt;/a&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/16.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2、下载Flutter其最新可用的安装包，&lt;a href=&#34;https://flutter.dev/docs/development/tools/sdk/releases#windows&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;点击下载&lt;/a&gt; 。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/17.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3、将安装包zip解压到你想安装Flutter SDK的路径&lt;/p&gt;
+
+&lt;p&gt;（如：E:\flutter；注意，不要将flutter安装到需要一些高权限的路径如C:\Program Files\）&lt;/p&gt;
+
+&lt;p&gt;4、在Flutter安装目录的flutter文件下找到flutter_console.bat，&lt;/p&gt;
+
+&lt;p&gt;双击运行并启动flutter命令行，接下来，你就可以在Flutter命令行运行flutter命令了。&lt;/p&gt;
+
+&lt;p&gt;5、添加Flutter环境变量和androidSDK环境变量
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/15.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6、android studio 或者 IntelliJ IDEA 配置&lt;/p&gt;
+
+&lt;p&gt;安装插件Flutter和Dart插件&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/18.png&#34; alt=&#34;如图&#34; /&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/19.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;7、检查，输入命令：flutter doctor&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/about_Environmental_configuration/20.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>前端学习之旅~</title>
