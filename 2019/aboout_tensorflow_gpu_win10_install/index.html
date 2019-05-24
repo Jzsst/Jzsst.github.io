@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "关于win10tensorflow的配置（CPU\x2bGPU）~",
     "headline" : "关于win10tensorflow的配置（CPU\x2bGPU）~",
-    "description" : "主要内容 CPU篇 GPU篇 【前期准备与注意事项】 环境：window1064位\x2bpython36（37）\x2bCUDA9.0\x2bcuDNN7.6\x2btensorflow_gpu-1.12.0\n软件：anaconda\x2bpycharm\n硬件：有nvidia显卡的笔记本或台式（非AMD）\n注意：cuDNN需要登陆在下载，tensorflow下载慢，所以这两我会提供百度云链接。\n【CPU篇】 软件：anaconda\x2bpycharm\n环境：python3.7\x2btensorflow_cpu-1.13.1\n百度云：链接: https:\/\/pan.baidu.com\/s\/1AGNsBvznIW7TaJlyg7iHgg 提取码: umre\n注意：后面tensorflow离线包的名字一定要对应，python版本也要对应\n主要步骤：\n1、利用anaconda用于创建python3.7环境（建议命名：tensorflow_CPU_37）\n2、tensorflow-CPU下载（python3.6） 点击这个链接下载tensorflow离线安装包。（解释：cp37对应python3.7版本）\n3、利用pycharm新建一个项目用于安装测试tensorflow。\n4、将在前用anaconda创建环境导入为该项目的python环境。 5、将下载好的tensorflow安装文件放到项目根部。 6、利用pycharm安装tensorflow-CPU\n（1）启动pycharm的Terminal。 （2）输入命令：pip install tensorflow-1.13.1-cp37-cp37m-win_amd64.whl 安装完成 7、检查\nimport tensorflow as tf hello = tf.constant(\x27Hello, TensorFlow!\x27) sess = tf.Session()\\ print (sess.run(hello))  CPU版彻底安装完成 【GPU篇】 软件：anaconda\x2bpycharm\x2bcuDNN7.6\x2bCUDA9.0\n环境：python3.6\x2btensorflow_gpu-1.12.0\n百度云：链接: https:\/\/pan.baidu.com\/s\/1H1vMGq4Pk4jleg88QABy6A 提取码: eivu\n注意：后面tensorflow离线包的名字一定要对应，python版本也要对应\n请注意你的CUDA和cuDNN的版本号是否对应，这是个大问题！！！ 匹配图：\n主要步骤：\n1、软件下载（下面为官方链接，前面有百度云链接）\n(1)CUDA9.0下载\n(2)cuDNN7.6下载（需要注册然后下载，百度云已分享.）\n(3)tensorflow_gpu-1.12.0下载\n2、CUDA9.0与cuDNN的安装\n(1)安装CUDA9.0，开始会选择一个路径，这是一个缓存文件路径，安装完成后会消失。\n选择【推荐】安装即可。\n安装完成后，会再此路径下有版本文件“C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA”\n不要想多了，只能安装这里！！！ (2)将cuDNN7.",
+    "description" : "主要内容 CPU篇 GPU篇 【前期准备与注意事项】 环境：window1064位\x2bpython36（37）\x2bCUDA9.0\x2bcuDNN7.6\x2btensorflow_gpu-1.12.0\n软件：anaconda\x2bpycharm\n硬件：有nvidia显卡的笔记本或台式（非AMD）\n注意：cuDNN需要登陆在下载，tensorflow下载慢，所以这两我会提供百度云链接。\n【CPU篇】 软件：anaconda\x2bpycharm\n环境：python3.7\x2btensorflow_cpu-1.13.1\n百度云：链接: https:\/\/pan.baidu.com\/s\/1AGNsBvznIW7TaJlyg7iHgg 提取码: umre\n注意：后面tensorflow离线包的名字一定要对应，python版本也要对应\n主要步骤：\n1、利用anaconda用于创建python3.7环境（建议命名：tensorflow_CPU_37）\n2、tensorflow-CPU下载（python3.6） 点击这个链接下载tensorflow离线安装包。（解释：cp37对应python3.7版本）\n3、利用pycharm新建一个项目用于安装测试tensorflow。\n4、将在前用anaconda创建环境导入为该项目的python环境。 5、将下载好的tensorflow安装文件放到项目根部。 6、利用pycharm安装tensorflow-CPU\n（1）启动pycharm的Terminal。 （2）输入命令：pip install tensorflow-1.13.1-cp37-cp37m-win_amd64.whl 安装完成 7、检查\nimport tensorflow as tf hello = tf.constant(\x27Hello, TensorFlow!\x27) sess = tf.Session() print (sess.run(hello))  CPU版彻底安装完成 【GPU篇】 软件：anaconda\x2bpycharm\x2bcuDNN7.6\x2bCUDA9.0\n环境：python3.6\x2btensorflow_gpu-1.12.0\n百度云：链接: https:\/\/pan.baidu.com\/s\/1H1vMGq4Pk4jleg88QABy6A 提取码: eivu\n注意：后面tensorflow离线包的名字一定要对应，python版本也要对应\n请注意你的CUDA和cuDNN的版本号是否对应，这是个大问题！！！ 匹配图：\n主要步骤：\n1、软件下载（下面为官方链接，前面有百度云链接）\n(1)CUDA9.0下载\n(2)cuDNN7.6下载（需要注册然后下载，百度云已分享.）\n(3)tensorflow_gpu-1.12.0下载\n2、CUDA9.0与cuDNN的安装\n(1)安装CUDA9.0，开始会选择一个路径，这是一个缓存文件路径，安装完成后会消失。\n选择【推荐】安装即可。\n安装完成后，会再此路径下有版本文件“C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA”\n不要想多了，只能安装这里！！！ (2)将cuDNN7.",
     "inLanguage" : "zh-CN",
     "author" : "Jzsst",
     "creator" : "Jzsst",
@@ -206,7 +206,7 @@
 
 <pre><code class="language-php">import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
-sess = tf.Session()\
+sess = tf.Session()
 print (sess.run(hello))
 </code></pre>
 
@@ -292,7 +292,7 @@ print (sess.run(hello))
 
 <pre><code class="language-php">import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
-sess = tf.Session()\
+sess = tf.Session()
 print (sess.run(hello))
 </code></pre>
 

@@ -72,7 +72,7 @@
 
 &lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;import tensorflow as tf
 hello = tf.constant(&#39;Hello, TensorFlow!&#39;)
-sess = tf.Session()\
+sess = tf.Session()
 print (sess.run(hello))
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -158,7 +158,7 @@ print (sess.run(hello))
 
 &lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;import tensorflow as tf
 hello = tf.constant(&#39;Hello, TensorFlow!&#39;)
-sess = tf.Session()\
+sess = tf.Session()
 print (sess.run(hello))
 &lt;/code&gt;&lt;/pre&gt;
 

@@ -31,7 +31,7 @@
 3、利用pycharm新建一个项目用于安装测试tensorflow。
 4、将在前用anaconda创建环境导入为该项目的python环境。 5、将下载好的tensorflow安装文件放到项目根部。 6、利用pycharm安装tensorflow-CPU
 （1）启动pycharm的Terminal。 （2）输入命令：pip install tensorflow-1.13.1-cp37-cp37m-win_amd64.whl 安装完成 7、检查
-import tensorflow as tf hello = tf.constant(&#39;Hello, TensorFlow!&#39;) sess = tf.Session()\ print (sess.run(hello))  CPU版彻底安装完成 【GPU篇】 软件：anaconda+pycharm+cuDNN7.6+CUDA9.0
+import tensorflow as tf hello = tf.constant(&#39;Hello, TensorFlow!&#39;) sess = tf.Session() print (sess.run(hello))  CPU版彻底安装完成 【GPU篇】 软件：anaconda+pycharm+cuDNN7.6+CUDA9.0
 环境：python3.6+tensorflow_gpu-1.12.0
 百度云：链接: https://pan.baidu.com/s/1H1vMGq4Pk4jleg88QABy6A 提取码: eivu
 注意：后面tensorflow离线包的名字一定要对应，python版本也要对应
