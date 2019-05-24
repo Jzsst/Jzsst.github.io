@@ -4,7 +4,7 @@
     <url>
       <loc>https://jzsst.github.io/categories/</loc>
       
-      <lastmod>2019-05-17T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
       
       
       
@@ -16,7 +16,7 @@
     <url>
       <loc>https://jzsst.github.io/posts/</loc>
       
-      <lastmod>2019-05-17T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
       
       
       
@@ -28,7 +28,65 @@
     <url>
       <loc>https://jzsst.github.io/tags/</loc>
       
-      <lastmod>2019-05-17T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://jzsst.github.io/2019/aboout_tensorflow_gpu_win10_install/</loc>
+      
+      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://jzsst.github.io/</loc>
+      
+      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://jzsst.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
+      
+      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E8%B0%88/</loc>
+      
+      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://jzsst.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</loc>
+      
+      <lastmod>2019-05-24T00:00:00+00:00</lastmod>
       
       
       
@@ -43,54 +101,6 @@
       <lastmod>2019-05-17T00:00:00+00:00</lastmod>
       
       
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://jzsst.github.io/</loc>
-      
-      <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://jzsst.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
-      
-      <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E8%B0%88/</loc>
-      
-      <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://jzsst.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</loc>
-      
-      <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
       
       
     </url>

@@ -5,8 +5,176 @@
     <description>Recent content in 放只虎归个山~~~ on 放只虎归个山~~~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>关于win10tensorflow的配置（CPU&#43;GPU）~</title>
+      <link>https://jzsst.github.io/2019/aboout_tensorflow_gpu_win10_install/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzsst.github.io/2019/aboout_tensorflow_gpu_win10_install/</guid>
+      <description>
+
+&lt;h2 id=&#34;主要内容&#34;&gt;主要内容&lt;/h2&gt;
+
+&lt;h3 id=&#34;cpu篇&#34;&gt;CPU篇&lt;/h3&gt;
+
+&lt;h3 id=&#34;gpu篇&#34;&gt;GPU篇&lt;/h3&gt;
+
+&lt;h1 id=&#34;前期准备与注意事项&#34;&gt;&lt;strong&gt;【前期准备与注意事项】&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;环境：window1064位+python36（37）+CUDA9.0+cuDNN7.6+tensorflow_gpu-1.12.0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;软件：anaconda+pycharm&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;硬件：有nvidia显卡的笔记本或台式（非AMD）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意：cuDNN需要登陆在下载，tensorflow下载慢，所以这两我会提供百度云链接。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;cpu篇-1&#34;&gt;【CPU篇】&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;软件：anaconda+pycharm&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;环境：python3.7+tensorflow_cpu-1.13.1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;百度云：链接: &lt;a href=&#34;https://pan.baidu.com/s/1AGNsBvznIW7TaJlyg7iHgg&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://pan.baidu.com/s/1AGNsBvznIW7TaJlyg7iHgg&lt;/a&gt; 提取码: umre&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意：后面tensorflow离线包的名字一定要对应，python版本也要对应&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;主要步骤：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1、利用anaconda用于创建python3.7环境（建议命名：tensorflow_CPU_37）&lt;/p&gt;
+
+&lt;p&gt;2、&lt;a href=&#34;https://files.pythonhosted.org/packages/7b/14/e4538c2bc3ae9f4ce6f6ce7ef1180da05abc4a617afba798268232b01d0d/tensorflow-1.13.1-cp37-cp37m-win_amd64.whl&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;tensorflow-CPU下载（python3.6）&lt;/a&gt;
+点击这个链接下载tensorflow离线安装包。（解释：cp37对应python3.7版本）&lt;/p&gt;
+
+&lt;p&gt;3、利用pycharm新建一个项目用于安装测试tensorflow。&lt;/p&gt;
+
+&lt;p&gt;4、将在前用anaconda创建环境导入为该项目的python环境。
+&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/1.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;5、将下载好的tensorflow安装文件放到项目根部。
+&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/2.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6、利用pycharm安装tensorflow-CPU&lt;/p&gt;
+
+&lt;p&gt;（1）启动pycharm的Terminal。
+&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/3.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;（2）输入命令：pip install tensorflow-1.13.1-cp37-cp37m-win_amd64.whl
+&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/4.png&#34; alt=&#34;如图&#34; /&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/5.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;安装完成&#34;&gt;安装完成&lt;/h2&gt;
+
+&lt;p&gt;7、检查&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;import tensorflow as tf
+hello = tf.constant(&#39;Hello, TensorFlow!&#39;)
+sess = tf.Session()\
+print (sess.run(hello))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/6.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;cpu版彻底安装完成&#34;&gt;CPU版彻底安装完成&lt;/h2&gt;
+
+&lt;h1 id=&#34;gpu篇-1&#34;&gt;【GPU篇】&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;软件：anaconda+pycharm+cuDNN7.6+CUDA9.0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;环境：python3.6+tensorflow_gpu-1.12.0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;百度云：链接: &lt;a href=&#34;https://pan.baidu.com/s/1H1vMGq4Pk4jleg88QABy6A&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://pan.baidu.com/s/1H1vMGq4Pk4jleg88QABy6A&lt;/a&gt; 提取码: eivu&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意：后面tensorflow离线包的名字一定要对应，python版本也要对应&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;请注意你的cuda和cudnn的版本号是否对应-这是个大问题&#34;&gt;请注意你的CUDA和cuDNN的版本号是否对应，这是个大问题！！！&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;匹配图：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/7.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;主要步骤：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1、软件下载（下面为官方链接，前面有百度云链接）&lt;/p&gt;
+
+&lt;p&gt;(1)&lt;a href=&#34;https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_win10-exe&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;CUDA9.0下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(2)&lt;a href=&#34;https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.6.0.64/prod/9.0_20190516/cudnn-9.0-windows10-x64-v7.6.0.64.zip&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;cuDNN7.6下载（需要注册然后下载，百度云已分享.）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(3)&lt;a href=&#34;https://files.pythonhosted.org/packages/88/73/13e4071739df8d5ee7a27780d66bc98a51612521ad7e5a1e468d9507087c/tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;tensorflow_gpu-1.12.0下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2、CUDA9.0与cuDNN的安装&lt;/p&gt;
+
+&lt;p&gt;(1)安装CUDA9.0，开始会选择一个路径，这是一个缓存文件路径，安装完成后会消失。&lt;/p&gt;
+
+&lt;p&gt;选择【推荐】安装即可。&lt;/p&gt;
+
+&lt;p&gt;安装完成后，会再此路径下有版本文件“C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA”&lt;/p&gt;
+
+&lt;h2 id=&#34;不要想多了-只能安装这里&#34;&gt;不要想多了，只能安装这里！！！&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/8.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(2)将cuDNN7.6解压然后将所有&lt;strong&gt;文件夹&lt;/strong&gt;拖入上面这个目录。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/9.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(3)将CUDA中的bin和extras\CUPTI\libx64加入Path环境变量。如图&lt;/p&gt;
+
+&lt;p&gt;一般就是这两个路径：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;请注意你的cuda和cudnn的版本号是否对应-这是个大问题-1&#34;&gt;请注意你的CUDA和cuDNN的版本号是否对应，这是个大问题！！！&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/10.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;以下与cpu安装十分相似&#34;&gt;以下与CPU安装十分相似&lt;/h3&gt;
+
+&lt;p&gt;3、利用anaconda用于创建python3.6环境（建议命名：tensorflow_GPU_36）&lt;/p&gt;
+
+&lt;p&gt;4、利用pycharm新建一个项目用于安装测试tensorflow。&lt;/p&gt;
+
+&lt;p&gt;5、将在前用anaconda创建环境导入为该项目的python环境。&lt;/p&gt;
+
+&lt;p&gt;6、将下载好的tensorflow安装文件放到项目根部。&lt;/p&gt;
+
+&lt;p&gt;7、利用pycharm安装tensorflow-GPU&lt;/p&gt;
+
+&lt;p&gt;（1）启动pycharm的Terminal。&lt;/p&gt;
+
+&lt;p&gt;（2）输入命令：pip install tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl
+&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/11.png&#34; alt=&#34;如图&#34; /&gt;
+&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/12.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;安装完成-1&#34;&gt;安装完成&lt;/h2&gt;
+
+&lt;p&gt;7、检查&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;import tensorflow as tf
+hello = tf.constant(&#39;Hello, TensorFlow!&#39;)
+sess = tf.Session()\
+print (sess.run(hello))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jzsst.github.io/images/aboout_tensorflow_gpu_win10_install/13.png&#34; alt=&#34;如图&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gpu版彻底安装完成&#34;&gt;GPU版彻底安装完成&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;[参考教程]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/liangyihuai/article/details/78688228&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://blog.csdn.net/liangyihuai/article/details/78688228&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_38195197/article/details/81953494&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://blog.csdn.net/qq_38195197/article/details/81953494&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;本篇结束&#34;&gt;本篇结束&amp;lt;&lt;/h1&gt;
+</description>
+    </item>
     
     <item>
       <title>关于一些编程语言的环境配置~</title>

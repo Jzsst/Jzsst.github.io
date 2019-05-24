@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Jzsst">
+  
+  <meta name="keywords" content="生活,教程,文章,故事">
+  
+  <link rel="prev" href="https://jzsst.github.io/2019/about_environmental_configuration/" />
+  
+  <link rel="canonical" href="https://jzsst.github.io/2019/aboout_tensorflow_gpu_win10_install/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           关于win10tensorflow的配置（CPU&#43;GPU）~ | 放只虎归个山~~~
+       
+  </title>
+  <meta name="title" content="关于win10tensorflow的配置（CPU&#43;GPU）~ | 放只虎归个山~~~">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/jzsst.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "关于win10tensorflow的配置（CPU\x2bGPU）~",
+    "headline" : "关于win10tensorflow的配置（CPU\x2bGPU）~",
+    "description" : "主要内容 CPU篇 GPU篇 【前期准备与注意事项】 环境：window1064位\x2bpython36（37）\x2bCUDA9.0\x2bcuDNN7.6\x2btensorflow_gpu-1.12.0\n软件：anaconda\x2bpycharm\n硬件：有nvidia显卡的笔记本或台式（非AMD）\n注意：cuDNN需要登陆在下载，tensorflow下载慢，所以这两我会提供百度云链接。\n【CPU篇】 软件：anaconda\x2bpycharm\n环境：python3.7\x2btensorflow_cpu-1.13.1\n百度云：链接: https:\/\/pan.baidu.com\/s\/1AGNsBvznIW7TaJlyg7iHgg 提取码: umre\n注意：后面tensorflow离线包的名字一定要对应，python版本也要对应\n主要步骤：\n1、利用anaconda用于创建python3.7环境（建议命名：tensorflow_CPU_37）\n2、tensorflow-CPU下载（python3.6） 点击这个链接下载tensorflow离线安装包。（解释：cp37对应python3.7版本）\n3、利用pycharm新建一个项目用于安装测试tensorflow。\n4、将在前用anaconda创建环境导入为该项目的python环境。 5、将下载好的tensorflow安装文件放到项目根部。 6、利用pycharm安装tensorflow-CPU\n（1）启动pycharm的Terminal。 （2）输入命令：pip install tensorflow-1.13.1-cp37-cp37m-win_amd64.whl 安装完成 7、检查\nimport tensorflow as tf hello = tf.constant(\x27Hello, TensorFlow!\x27) sess = tf.Session()\\ print (sess.run(hello))  CPU版彻底安装完成 【GPU篇】 软件：anaconda\x2bpycharm\x2bcuDNN7.6\x2bCUDA9.0\n环境：python3.6\x2btensorflow_gpu-1.12.0\n百度云：链接: https:\/\/pan.baidu.com\/s\/1H1vMGq4Pk4jleg88QABy6A 提取码: eivu\n注意：后面tensorflow离线包的名字一定要对应，python版本也要对应\n请注意你的CUDA和cuDNN的版本号是否对应，这是个大问题！！！ 匹配图：\n主要步骤：\n1、软件下载（下面为官方链接，前面有百度云链接）\n(1)CUDA9.0下载\n(2)cuDNN7.6下载（需要注册然后下载，百度云已分享.）\n(3)tensorflow_gpu-1.12.0下载\n2、CUDA9.0与cuDNN的安装\n(1)安装CUDA9.0，开始会选择一个路径，这是一个缓存文件路径，安装完成后会消失。\n选择【推荐】安装即可。\n安装完成后，会再此路径下有版本文件“C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA”\n不要想多了，只能安装这里！！！ (2)将cuDNN7.",
+    "inLanguage" : "zh-CN",
+    "author" : "Jzsst",
+    "creator" : "Jzsst",
+    "publisher": "Jzsst",
+    "accountablePerson" : "Jzsst",
+    "copyrightHolder" : "Jzsst",
+    "copyrightYear" : "2019",
+    "datePublished": "2019-05-24 00:00:00 \x2b0000 UTC",
+    "dateModified" : "2019-05-24 00:00:00 \x2b0000 UTC",
+    "url" : "https:\/\/jzsst.github.io\/2019\/aboout_tensorflow_gpu_win10_install\/",
+    "wordCount" : "112",
+    "keywords" : [ "环境配置","教程", "放只虎归个山~~~"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://jzsst.github.io">放只虎归个山~~~</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">博客</a>
+                
+                <a class="menu-item" href="/categories/" title="">分类</a>
+                
+                <a class="menu-item" href="/tags/" title="">标签</a>
+                
+                <a class="menu-item" href="/about/" title="">关于</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://jzsst.github.io">放只虎归个山~~~</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">博客</a>
+                
+                <a class="menu-item" href="/categories/" title="">分类</a>
+                
+                <a class="menu-item" href="/tags/" title="">标签</a>
+                
+                <a class="menu-item" href="/about/" title="">关于</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article" >
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">关于win10tensorflow的配置（CPU&#43;GPU）~</h1>
+        <div class="post-meta">
+                出自于 <a itemprop="name" href="https://jzsst.github.io" rel="author">Jzsst</a>  发布于 
+                <span class="post-time" >
+                on <time  datetime=2019-05-24 itemprop="datePublished">May 24, 2019</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://jzsst.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E8%B0%88/"> 杂技浅谈 </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<h2 id="主要内容">主要内容</h2>
+
+<h3 id="cpu篇">CPU篇</h3>
+
+<h3 id="gpu篇">GPU篇</h3>
+
+<h1 id="前期准备与注意事项"><strong>【前期准备与注意事项】</strong></h1>
+
+<p><strong>环境：window1064位+python36（37）+CUDA9.0+cuDNN7.6+tensorflow_gpu-1.12.0</strong></p>
+
+<p><strong>软件：anaconda+pycharm</strong></p>
+
+<p><strong>硬件：有nvidia显卡的笔记本或台式（非AMD）</strong></p>
+
+<p><strong>注意：cuDNN需要登陆在下载，tensorflow下载慢，所以这两我会提供百度云链接。</strong></p>
+
+<h1 id="cpu篇-1">【CPU篇】</h1>
+
+<p><strong>软件：anaconda+pycharm</strong></p>
+
+<p><strong>环境：python3.7+tensorflow_cpu-1.13.1</strong></p>
+
+<p>百度云：链接: <a href="https://pan.baidu.com/s/1AGNsBvznIW7TaJlyg7iHgg" rel="nofollow noreferrer" target="_blank">https://pan.baidu.com/s/1AGNsBvznIW7TaJlyg7iHgg</a> 提取码: umre</p>
+
+<p><strong>注意：后面tensorflow离线包的名字一定要对应，python版本也要对应</strong></p>
+
+<p><strong>主要步骤：</strong></p>
+
+<p>1、利用anaconda用于创建python3.7环境（建议命名：tensorflow_CPU_37）</p>
+
+<p>2、<a href="https://files.pythonhosted.org/packages/7b/14/e4538c2bc3ae9f4ce6f6ce7ef1180da05abc4a617afba798268232b01d0d/tensorflow-1.13.1-cp37-cp37m-win_amd64.whl" rel="nofollow noreferrer" target="_blank">tensorflow-CPU下载（python3.6）</a>
+点击这个链接下载tensorflow离线安装包。（解释：cp37对应python3.7版本）</p>
+
+<p>3、利用pycharm新建一个项目用于安装测试tensorflow。</p>
+
+<p>4、将在前用anaconda创建环境导入为该项目的python环境。
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/1.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<p>5、将下载好的tensorflow安装文件放到项目根部。
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/2.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<p>6、利用pycharm安装tensorflow-CPU</p>
+
+<p>（1）启动pycharm的Terminal。
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/3.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<p>（2）输入命令：pip install tensorflow-1.13.1-cp37-cp37m-win_amd64.whl
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/4.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure>
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/5.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<h2 id="安装完成">安装完成</h2>
+
+<p>7、检查</p>
+
+<pre><code class="language-php">import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()\
+print (sess.run(hello))
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/6.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<h2 id="cpu版彻底安装完成">CPU版彻底安装完成</h2>
+
+<h1 id="gpu篇-1">【GPU篇】</h1>
+
+<p><strong>软件：anaconda+pycharm+cuDNN7.6+CUDA9.0</strong></p>
+
+<p><strong>环境：python3.6+tensorflow_gpu-1.12.0</strong></p>
+
+<p>百度云：链接: <a href="https://pan.baidu.com/s/1H1vMGq4Pk4jleg88QABy6A" rel="nofollow noreferrer" target="_blank">https://pan.baidu.com/s/1H1vMGq4Pk4jleg88QABy6A</a> 提取码: eivu</p>
+
+<p><strong>注意：后面tensorflow离线包的名字一定要对应，python版本也要对应</strong></p>
+
+<h2 id="请注意你的cuda和cudnn的版本号是否对应-这是个大问题">请注意你的CUDA和cuDNN的版本号是否对应，这是个大问题！！！</h2>
+
+<p><strong>匹配图：</strong></p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/7.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<p><strong>主要步骤：</strong></p>
+
+<p>1、软件下载（下面为官方链接，前面有百度云链接）</p>
+
+<p>(1)<a href="https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda_9.0.176_win10-exe" rel="nofollow noreferrer" target="_blank">CUDA9.0下载</a></p>
+
+<p>(2)<a href="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.6.0.64/prod/9.0_20190516/cudnn-9.0-windows10-x64-v7.6.0.64.zip" rel="nofollow noreferrer" target="_blank">cuDNN7.6下载（需要注册然后下载，百度云已分享.）</a></p>
+
+<p>(3)<a href="https://files.pythonhosted.org/packages/88/73/13e4071739df8d5ee7a27780d66bc98a51612521ad7e5a1e468d9507087c/tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl" rel="nofollow noreferrer" target="_blank">tensorflow_gpu-1.12.0下载</a></p>
+
+<p>2、CUDA9.0与cuDNN的安装</p>
+
+<p>(1)安装CUDA9.0，开始会选择一个路径，这是一个缓存文件路径，安装完成后会消失。</p>
+
+<p>选择【推荐】安装即可。</p>
+
+<p>安装完成后，会再此路径下有版本文件“C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA”</p>
+
+<h2 id="不要想多了-只能安装这里">不要想多了，只能安装这里！！！</h2>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/8.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<p>(2)将cuDNN7.6解压然后将所有<strong>文件夹</strong>拖入上面这个目录。</p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/9.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<p>(3)将CUDA中的bin和extras\CUPTI\libx64加入Path环境变量。如图</p>
+
+<p>一般就是这两个路径：</p>
+
+<p><strong>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin</strong></p>
+
+<p><strong>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64</strong></p>
+
+<h2 id="请注意你的cuda和cudnn的版本号是否对应-这是个大问题-1">请注意你的CUDA和cuDNN的版本号是否对应，这是个大问题！！！</h2>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/10.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<h3 id="以下与cpu安装十分相似">以下与CPU安装十分相似</h3>
+
+<p>3、利用anaconda用于创建python3.6环境（建议命名：tensorflow_GPU_36）</p>
+
+<p>4、利用pycharm新建一个项目用于安装测试tensorflow。</p>
+
+<p>5、将在前用anaconda创建环境导入为该项目的python环境。</p>
+
+<p>6、将下载好的tensorflow安装文件放到项目根部。</p>
+
+<p>7、利用pycharm安装tensorflow-GPU</p>
+
+<p>（1）启动pycharm的Terminal。</p>
+
+<p>（2）输入命令：pip install tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/11.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure>
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/12.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<h2 id="安装完成-1">安装完成</h2>
+
+<p>7、检查</p>
+
+<pre><code class="language-php">import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()\
+print (sess.run(hello))
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/aboout_tensorflow_gpu_win10_install/13.png" alt="如图" class="lazyload"><figcaption class="image-caption">如图</figcaption></figure></p>
+
+<h2 id="gpu版彻底安装完成">GPU版彻底安装完成</h2>
+
+<p><strong>[参考教程]</strong></p>
+
+<p><a href="https://blog.csdn.net/liangyihuai/article/details/78688228" rel="nofollow noreferrer" target="_blank">https://blog.csdn.net/liangyihuai/article/details/78688228</a></p>
+
+<p><a href="https://blog.csdn.net/qq_38195197/article/details/81953494" rel="nofollow noreferrer" target="_blank">https://blog.csdn.net/qq_38195197/article/details/81953494</a></p>
+
+<h1 id="本篇结束">本篇结束&lt;</h1>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>
+                        <font color="DodgerBlue">作者:</font></span>
+                <span>Jzsst </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>
+                            <font color="DodgerBlue">链接:</font></span>
+                        <a href=https://jzsst.github.io/2019/aboout_tensorflow_gpu_win10_install/>https://jzsst.github.io/2019/aboout_tensorflow_gpu_win10_install/</span>
+                    </span>
+            </p>
+            
+            
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv" style="display: inline"><font color="DodgerBlue">本篇访问量:</font><span id="busuanzi_value_page_pv"></span>次</span>
+
+
+
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>
+            <font color="DodgerBlue">Tag(s): </font>            
+            
+            <span class="tag"><a href="https://jzsst.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">
+                    #环境配置</a></span>
+            
+            <span class="tag"><a href="https://jzsst.github.io/tags/%E6%95%99%E7%A8%8B/">
+                    #教程</a></span>
+            
+            </section>
+        
+        <section>
+                <a  href="javascript:window.history.back();"><font color="DodgerBlue">Back</font> </a></span> · 
+                <span><a href="https://jzsst.github.io"> 放只虎归个山 ( > v &lt; ) %%</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://jzsst.github.io/2019/about_environmental_configuration/" class="prev" rel="prev" title="关于一些编程语言的环境配置~"><i class="iconfont icon-left"></i>&nbsp;关于一些编程语言的环境配置~</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+    <div class="post-comment">
+        
+        
+
+    </div>    
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2018 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://jzsst.github.io">Jzsst</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>
